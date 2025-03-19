@@ -30,13 +30,28 @@ public class TestUtils {
         return req;
     }
 
+//    public static String getGlobalValue(String key) throws IOException
+//    {
+//        Properties prop =new Properties();
+//        FileInputStream fis =new FileInputStream("E:\\RestAssuredFramework\\config\\global.properties");
+//        prop.load(fis);
+//        return prop.getProperty(key);
+//    }
 
-    public static String getGlobalValue(String key) throws IOException
-    {
-        Properties prop =new Properties();
-        FileInputStream fis =new FileInputStream("E:\\RestAssuredFramework\\config\\global.properties");
-        prop.load(fis);
-        return prop.getProperty(key);
+    public static String getGlobalValue(String key) throws IOException {
+        Properties prop = new Properties();
+        // Get the current working directory
+        String currentDir = System.getProperty("user.dir");
+        String filePath = currentDir + "/config/global.properties";
+
+        try (FileInputStream fis = new FileInputStream(filePath)) {
+            prop.load(fis);
+        }
+        String value = prop.getProperty(key);
+        if (value == null) {
+            throw new IllegalArgumentException("Key '" + key + "' not found in the properties file.");
+        }
+        return value;
     }
 
     public String getJsonPath(Response response, String key)
