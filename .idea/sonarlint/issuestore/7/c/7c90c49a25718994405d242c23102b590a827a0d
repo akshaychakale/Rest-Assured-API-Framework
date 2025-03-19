@@ -1,0 +1,12 @@
+
+^
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Ùì‚68Ü­’û.
+I
+java:S1128"-Remove this unused import 'org.junit.Assert'.(­ŞL8Ü­’û.
+Z
+java:S1128"8Remove this unused import 'org.apache.log4j.LogManager'.(Øê˜Ìüÿÿÿÿ8Ü­’û.
+_
+java:S1128"=Remove this unused import 'io.restassured.response.Response'.(ä¯»ùÿÿÿÿ8Ü­’û.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï­Éåúÿÿÿÿ8Ü­’û.
+P
+java:S1128"4Remove this unused import 'org.apache.log4j.Logger'.(ñè½8Ü­’û.

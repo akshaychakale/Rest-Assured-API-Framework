@@ -1,0 +1,20 @@
+
+h	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÂ©†ùÿÿÿÿ
+v
+java:S1488,"`Immediately return this expression instead of assigning it to the temporary variable "response".(ß¢Å‹
+h	java:S100
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©…†Ÿúÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÙşÙ«
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÁ——
+{
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "response".(ôÚûòùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï­Éåúÿÿÿÿ
+c	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ã¤Û
+{
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "response".(ı¿“¨ùÿÿÿÿ
+{
+java:S1488%"`Immediately return this expression instead of assigning it to the temporary variable "response".(€ú¹Äúÿÿÿÿ
+{
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "response".(ôÚûòùÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÖ ½
